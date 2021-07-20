@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "quickon",
+  "version": "${version}",
+  "name": "QuickOn",
+  "description": "",
+  "authors": [
+    "Vaerian"
+  ],
+  "contact": {
+    "sources": "https://github.com/Vaerian/QuickOn"
+  },
+  "license": "MIT/APACHE",
+  "icon": "assets/quickon/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.cumulusmc.quickon.QuickOn"
+    ]
+  },
+  "mixins": [
+    "quickon.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
